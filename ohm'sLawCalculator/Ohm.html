@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Ohm's Law Calculator</title>
+    <link rel="stylesheet" href=" ">
+    <link rel="" href="">
+</head>
+<body>
+    <h1>Ohm's Law Calculator</h1>
+
+    <form name ="inputForm" id="inputForm">
+    <p>Enter two known <strong>values</strong></p>
+    <table cellspacing="0" cellpadding="4" border="0" bgcolor="#808B96">
+        <tr>
+        <td align="center" height="50"><h2>Voltage:</h2><input type="number" id="inputVolts" value=""></td>
+        
+        <td align="center" height="50"><h2>Amps:</h2><input type="number" id="inputAmps" value=""></td>
+        
+        <td align="center" height="50"><h2>Ohms:</h2><input type="number" id="inputOhms" value=""></td>
+        
+        <td align="center" height="50"><h2>Power:</h2><input type="number" id="inputPower" value=""></td>
+        </tr>
+        <tr>
+            <td align="left" colspan="2"><input type="button" value="submit" name="submit" onClick="solveform()"></td>
+            <td align="left" colspan="2"><input type="reset" value="reset" name="reset" onClick="document.inputForm.reset()"></td>
+        </tr>       
+
+    </table>    
+    </form>
+    
+    
+</body>
+</html>
