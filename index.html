@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Ohm's Law Calculator</title>
+    <link rel="stylesheet" href="ohmstyle.css" type="text/css"">
+    <link rel="" href="">
+</head>
+<body class=" calculator">
+
+    <h1>Ohm's Law Calculator</h1>
+
+    <form name="inputForm" class="inputForm" id="inputForm">
+        <p>Enter two known <strong>values</strong></p>
+        <table cellspacing="0" cellpadding="4" border="0" bgcolor="#808B96">
+
+            <tr>
+                <div>
+                    <select id="dropdown" class="dropdownZone" size="6">
+                        <option id="i+r" value="1">Amps + Ohms</option>
+                        <option id="i+e" value="2">Amps + Volts</option>
+                        <option id="i+p" value="3">Amps + Power</option>
+                        <option id="r+e" value="4">Ohms + Volts</option>
+                        <option id="r+p" value="5">Ohms + Power</option>
+                        <option id="e+p" value="6">Volts + Power</option>
+                    </select>
+                </div>
+            </tr>
+
+
+            <tr>
+                <td><h2>Voltage:</h2><input type="number" name="voltage" value="0" id="inputVolts" class="volts"></td>
+
+                <td><h2>Amps:</h2><input type="number" name="ampere" value="0" id="inputAmps" class="amps"></td>
+
+                <td><h2>Ohms:</h2><input type="number" name="ohms" value="0" id="inputOhms" class="ohms"></td>
+
+                <td><h2>Power:</h2><input type="number" name="power" value="0" id="inputPower" class="watts"></td>
+            </tr><br><br>
+            <tr>
+                <input type="button" value="submit" name="submit" onClick=""></td>
+                <input type="reset" value="reset" name="reset" onClick="document.inputForm.focus()"></td>
+            </tr>
+        </table>
+
+    </form>
+
+    <hr />
+    <h2>Answer</h2>
+    <div id="results">
+
+    </div>
+
+    <script type="text/javascript" src="ohmcalculator.js">document.getElementById("#calculate").innerHTML</script>
+    </body>
+
+</html>
